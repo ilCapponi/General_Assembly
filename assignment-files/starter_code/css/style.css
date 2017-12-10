@@ -1,0 +1,183 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-weight: 800px;
+	font-size: 50px;
+	color: white;
+
+}
+
+h2 {
+	font-weight: 10px;
+	font-size: 30px;
+	color: white;
+	margin: 100px 0px;
+	text-align: center;
+	
+}
+
+h3 {
+	color: rgb(50,50,65);
+	font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+ul {
+	line-height: 30px;
+	padding-top: 20px;
+	font-weight: lighter;
+}
+
+footer {
+	height: 300px;
+	background-color: rgb(80,80,90);
+	color: white; 
+	text-align: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 500px;
+
+}
+
+.cta {
+
+	padding: 10px 50px;
+	background-color: #f9e42e;
+	color: rgb(40,40,50);
+	border: 1px solid #f9e42e;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+  	margin: 0 auto;
+  	width: 280px;
+}
+
+.second {
+	margin:80px 20px;
+	color: rgb(80,80,95);
+
+}
+
+.box {
+	max-width: 500px;
+}
+
+.third {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	color: white;
+	padding: 100px 0px;
+	text-align: center;
+
+}
+.third-style {
+	max-width: 900px;
+	text-align: center;
+}
+
+.copy {
+	background-color: #f9e42e;
+	padding:20px 0px;
+}
+
+.cta-button {
+	margin: 300px;
+	padding: 10px 50px;
+	background-color: rgb(80,80,95);
+	color: white;
+	border: 1px solid rgb(80,80,95);
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.copy-style {
+	color: #f9e42e;
+	font-size: 40px;
+	height: 30px;
+	padding: 50px;
+	font-weight: bold;
+}
+
+.copyright {
+	color: white;
+	font-size: 20px;
+	padding: 0px 50px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgb(80,80,95);
+}
+
+footer {
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 26px 75px;
+}
+
