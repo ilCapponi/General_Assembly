@@ -26,6 +26,19 @@ Developer @GA in NYC
     clear: both;
 }
 
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -55,12 +68,7 @@ h2 {
 	
 }
 
-h3 {
-	color: rgb(50,50,65);
-	font-size: 30px;
-	font-weight: 600;
-  	margin-bottom: 40px;
-}
+
 
 a {
 	text-decoration: none;
@@ -73,12 +81,6 @@ ul {
 	font-weight: lighter;
 }
 
-footer {
-	height: 300px;
-	background-color: rgb(80,80,90);
-	color: white; 
-	text-align: center;
-}
 
 /******************************************
 /* LAYOUT
@@ -98,8 +100,16 @@ footer {
 .intro {
 	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
 	background-size: cover;
-	height: 500px;
+	padding: 50px 0 200px;
 
+}
+
+.intro h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
 }
 
 .cta {
@@ -129,9 +139,15 @@ footer {
 }
 
 .second {
-	margin:80px 20px;
-	color: rgb(80,80,95);
+  padding: 100px 0 80px;
 
+}
+
+h3 {
+	color: rgb(50,50,65);
+	font-size: 30px;
+	font-weight: 600;
+  	margin-bottom: 40px;
 }
 
 .second p, .second ul {
@@ -148,12 +164,15 @@ footer {
 	background-size: cover;
 	color: white;
 	padding: 100px 0px;
-	text-align: center;
 
 }
 .third-style {
-	max-width: 900px;
-	text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
 }
 
 span {
@@ -169,34 +188,20 @@ span {
 }
 
 
-.logo {
-	color: #f9e42e;
-	font-size: 40px;
-	height: 30px;
-	padding: 50px;
-	font-weight: bold;
+footer {
+	
+	background-color: rgb(65,65,80);
+  	padding: 65px 0 45px;
+  	text-align: center;
 }
 
-.copyright {
-	color: white;
-	font-size: 20px;
-	padding: 0px 50px;
-	text-align: center;
-	margin: 0 auto;
-	background-color: rgb(80,80,95);
-}
 
 footer .logo {
   color: #f9e42e;
   margin-bottom: 68px;
 }
 
-footer {
-	
-	background: #121212;
-  	padding: 65px 0 45px;
-  	text-align: center;
-}
+
 
 footer ul li {
 	display: inline-block;
@@ -210,3 +215,10 @@ footer p {
   font-weight: 600;
 }
 
+.copyright {
+	color: white;
+	font-size: 20px;
+	padding: 0px 50px;
+	text-align: center;
+
+}
