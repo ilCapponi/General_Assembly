@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Blog
+Client: Relaxator
+Author: Tomas Capponi
 Developer @GA in NYC
 */
 
@@ -72,7 +72,7 @@ h2 {
 
 a {
 	text-decoration: none;
-
+	color: white;
 }
 
 ul {
@@ -98,19 +98,44 @@ ul {
 /*******************************************/
 
 .intro {
-	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
-	background-size: cover;
-	padding: 50px 0 200px;
+
+	background-color: #033048;
+}
+
+
+nav {
+
+color: white;
 
 }
 
-.intro h2 {
-  font-size: 40px;
-  text-align: center;
-  color: #fff;
-  margin: 120px 0 90px;
-  font-weight: 600;
+
+/* Two rows style */
+
+
+.column {
+ background-color: #f0efef;
 }
+
+.column .left {
+float: left;
+width: 75%;
+background-color: #f0efef
+}
+
+.column .right {
+float: right;
+width: 25%;
+background-color: #EEFFEE
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Two rows style */
 
 .cta {
 
@@ -140,6 +165,9 @@ ul {
 
 .second {
   padding: 100px 0 80px;
+
+
+
 
 }
 
